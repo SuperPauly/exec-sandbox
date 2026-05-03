@@ -72,6 +72,14 @@ dev = [
     "twine~=6.1",  # Package verification before PyPI upload
     "vulture~=2.14",  # Dead code detection
     "moto[s3,server]~=5.0",  # AWS mocking for S3 tests (server mode for aioboto3)
+    "httpx~=0.28",  # Async HTTP client for FastAPI TestClient
+]
+mcp = [
+    "fastapi~=0.136",
+    "uvicorn~=0.46",
+    "mcp~=1.27",
+    "sse-starlette~=3.4",
+    "pydantic~=2.0",
 ]
 
 [project.urls]
